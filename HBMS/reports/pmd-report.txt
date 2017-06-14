@@ -1,0 +1,225 @@
+
+src/com/igate/hbms/bean/HotelBean.java:76	Parameter 'avgRatePerNight' is not assigned and could be declared final
+src/com/igate/hbms/bean/HotelBean.java:82	Parameter 'hotelID' is not assigned and could be declared final
+src/com/igate/hbms/bean/HotelBean.java:88	Parameter 'city' is not assigned and could be declared final
+src/com/igate/hbms/bean/HotelBean.java:94	Parameter 'hotelName' is not assigned and could be declared final
+src/com/igate/hbms/bean/HotelBean.java:100	Parameter 'address' is not assigned and could be declared final
+src/com/igate/hbms/bean/ReportBean.java:18	Parameter 'hotelId' is not assigned and could be declared final
+src/com/igate/hbms/bean/ReportBean.java:24	Parameter 'hotelName' is not assigned and could be declared final
+src/com/igate/hbms/bean/ReportBean.java:30	Parameter 'userFirstname' is not assigned and could be declared final
+src/com/igate/hbms/bean/ReportBean.java:36	Parameter 'bookedFrom' is not assigned and could be declared final
+src/com/igate/hbms/bean/ReportBean.java:42	Parameter 'bookedTo' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomDetailsBean.java:24	Parameter 'hotelId' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomDetailsBean.java:30	Parameter 'roomId' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomDetailsBean.java:36	Parameter 'roomNo' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomDetailsBean.java:42	Parameter 'roomType' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomDetailsBean.java:48	Parameter 'perNightRate' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomTypeBean.java:29	Parameter 'noOfRooms' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomTypeBean.java:35	Parameter 'noOfNights' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomTypeBean.java:41	Parameter 'noOfAdults' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomTypeBean.java:47	Parameter 'noOfChildren' is not assigned and could be declared final
+src/com/igate/hbms/bean/RoomTypeBean.java:53	Parameter 'fromDate' is not assigned and could be declared final
+src/com/igate/hbms/bean/UserBean.java:69	Parameter 'mobile' is not assigned and could be declared final
+src/com/igate/hbms/bean/UserBean.java:75	Parameter 'state' is not assigned and could be declared final
+src/com/igate/hbms/bean/UserBean.java:81	Parameter 'pincode' is not assigned and could be declared final
+src/com/igate/hbms/bean/UserBean.java:87	Parameter 'city' is not assigned and could be declared final
+src/com/igate/hbms/bean/UserBean.java:93	Parameter 'gender' is not assigned and could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:17	Use explicit scoping instead of the default package private level
+src/com/igate/hbms/bo/HbmsBO.java:18	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/igate/hbms/bo/HbmsBO.java:22	Parameter 'userBean' is not assigned and could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:30	Parameter 'userBean' is not assigned and could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:45	Found 'DD'-anomaly for variable 'locationList' (lines '45'-'46').
+src/com/igate/hbms/bo/HbmsBO.java:49	Parameter 'city' is not assigned and could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:52	Found 'DD'-anomaly for variable 'hotelList1' (lines '52'-'54').
+src/com/igate/hbms/bo/HbmsBO.java:54	Found 'DD'-anomaly for variable 'hotelList1' (lines '54'-'55').
+src/com/igate/hbms/bo/HbmsBO.java:59	Parameter 'hotelId' is not assigned and could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:61	Found 'DD'-anomaly for variable 'list' (lines '61'-'62').
+src/com/igate/hbms/bo/HbmsBO.java:62	Found 'DD'-anomaly for variable 'list' (lines '62'-'63').
+src/com/igate/hbms/bo/HbmsBO.java:68	Parameter 'perNightRate' is not assigned and could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:70	Local variable 'amount' could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:71	Consider simply returning the value vs storing it in local variable 'amount'
+src/com/igate/hbms/bo/HbmsBO.java:79	Found 'DD'-anomaly for variable 'hotelList1' (lines '79'-'80').
+src/com/igate/hbms/bo/HbmsBO.java:86	Local variable 'hotelId' could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:87	Consider simply returning the value vs storing it in local variable 'hotelId'
+src/com/igate/hbms/bo/HbmsBO.java:92	Local variable 'status' could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:93	Consider simply returning the value vs storing it in local variable 'status'
+src/com/igate/hbms/bo/HbmsBO.java:98	Local variable 'status' could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:99	Consider simply returning the value vs storing it in local variable 'status'
+src/com/igate/hbms/bo/HbmsBO.java:105	Local variable 'reportList' could be declared final
+src/com/igate/hbms/bo/HbmsBO.java:106	Consider simply returning the value vs storing it in local variable 'reportList'
+src/com/igate/hbms/bo/HbmsBO.java:119	Found 'DD'-anomaly for variable 'hotellist' (lines '119'-'120').
+src/com/igate/hbms/bo/HbmsBO.java:120	Found 'DD'-anomaly for variable 'hotellist' (lines '120'-'121').
+src/com/igate/hbms/bo/IHbmsBO.java:23	Avoid modifiers which are implied by the context
+src/com/igate/hbms/bo/IHbmsBO.java:24	Avoid modifiers which are implied by the context
+src/com/igate/hbms/bo/IHbmsBO.java:25	Avoid modifiers which are implied by the context
+src/com/igate/hbms/bo/IHbmsBO.java:26	Avoid modifiers which are implied by the context
+src/com/igate/hbms/bo/IHbmsBO.java:27	Avoid modifiers which are implied by the context
+src/com/igate/hbms/controller/HbmsController.java:33	Use explicit scoping instead of the default package private level
+src/com/igate/hbms/controller/HbmsController.java:34	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/igate/hbms/controller/HbmsController.java:38	Parameter 'model' is not assigned and could be declared final
+src/com/igate/hbms/controller/HbmsController.java:40	Local variable 'userBean' could be declared final
+src/com/igate/hbms/controller/HbmsController.java:49	Parameter 'model' is not assigned and could be declared final
+src/com/igate/hbms/controller/HbmsController.java:49	Parameter 'result' is not assigned and could be declared final
+src/com/igate/hbms/controller/HbmsController.java:49	Parameter 'userBean' is not assigned and could be declared final
+src/com/igate/hbms/controller/HbmsController.java:52	Found 'DD'-anomaly for variable 'viewName' (lines '52'-'63').
+src/com/igate/hbms/controller/HbmsController.java:52	Found 'DD'-anomaly for variable 'viewName' (lines '52'-'66').
+src/com/igate/hbms/controller/HbmsController.java:52	Found 'DD'-anomaly for variable 'viewName' (lines '52'-'71').
+src/com/igate/hbms/controller/HbmsController.java:52	Found 'DD'-anomaly for variable 'viewName' (lines '52'-'76').
+src/com/igate/hbms/controller/HbmsController.java:62	Position literals first in String comparisons
+src/com/igate/hbms/controller/HbmsController.java:63	Found 'DD'-anomaly for variable 'viewName' (lines '63'-'66').
+src/com/igate/hbms/controller/HbmsController.java:63	Found 'DD'-anomaly for variable 'viewName' (lines '63'-'71').
+src/com/igate/hbms/controller/HbmsController.java:63	Found 'DD'-anomaly for variable 'viewName' (lines '63'-'76').
+src/com/igate/hbms/controller/HbmsController.java:65	Position literals first in String comparisons
+src/com/igate/hbms/controller/HbmsController.java:66	Found 'DD'-anomaly for variable 'viewName' (lines '66'-'71').
+src/com/igate/hbms/controller/HbmsController.java:66	Found 'DD'-anomaly for variable 'viewName' (lines '66'-'76').
+src/com/igate/hbms/controller/HbmsController.java:68	Avoid using equals() to compare against null
+src/com/igate/hbms/controller/HbmsController.java:68	Position literals first in String comparisons
+src/com/igate/hbms/controller/HbmsController.java:71	Found 'DD'-anomaly for variable 'viewName' (lines '71'-'76').
+src/com/igate/hbms/controller/HbmsController.java:75	The String literal "message" appears 15 times in this file; the first occurrence is on line 75
+src/com/igate/hbms/controller/HbmsController.java:80	This statement may have some unnecessary parentheses
+src/com/igate/hbms/controller/HbmsController.java:87	Parameter 'model' is not assigned and could be declared final
+src/com/igate/hbms/controller/HbmsController.java:88	Local variable 'userBean' could be declared final
+src/com/igate/hbms/controller/HbmsController.java:101	A method should have only one exit point, and that should be the last statement in the method
+src/com/igate/hbms/controller/HbmsController.java:106	Avoid unnecessary comparisons in boolean expressions
+src/com/igate/hbms/controller/HbmsController.java:107	A method should have only one exit point, and that should be the last statement in the method
+src/com/igate/hbms/controller/HbmsController.java:118	Found 'DD'-anomaly for variable 'locationList' (lines '118'-'123').
+src/com/igate/hbms/controller/HbmsController.java:120	Found 'DD'-anomaly for variable 'viewname1' (lines '120'-'126').
+src/com/igate/hbms/controller/HbmsController.java:125	The String literal "hotelBean" appears 6 times in this file; the first occurrence is on line 125
+src/com/igate/hbms/controller/HbmsController.java:126	Found 'DU'-anomaly for variable 'viewname1' (lines '126'-'136').
+src/com/igate/hbms/controller/HbmsController.java:133	A method should have only one exit point, and that should be the last statement in the method
+src/com/igate/hbms/controller/HbmsController.java:133	The String literal "error" appears 4 times in this file; the first occurrence is on line 133
+src/com/igate/hbms/controller/HbmsController.java:145	Found 'DD'-anomaly for variable 'hotelList' (lines '145'-'148').
+src/com/igate/hbms/controller/HbmsController.java:148	Found 'DD'-anomaly for variable 'hotelList' (lines '148'-'149').
+src/com/igate/hbms/controller/HbmsController.java:152	Found 'DU'-anomaly for variable 'viewName1' (lines '152'-'162').
+src/com/igate/hbms/controller/HbmsController.java:159	A method should have only one exit point, and that should be the last statement in the method
+src/com/igate/hbms/controller/HbmsController.java:170	Found 'DD'-anomaly for variable 'list' (lines '170'-'171').
+src/com/igate/hbms/controller/HbmsController.java:171	Found 'DD'-anomaly for variable 'list' (lines '171'-'172').
+src/com/igate/hbms/controller/HbmsController.java:191	Local variable 'amount' could be declared final
+src/com/igate/hbms/controller/HbmsController.java:192	Found 'DD'-anomaly for variable 'view' (lines '192'-'197').
+src/com/igate/hbms/controller/HbmsController.java:192	Found 'DD'-anomaly for variable 'view' (lines '192'-'203').
+src/com/igate/hbms/controller/HbmsController.java:214	Found 'DD'-anomaly for variable 'cityList' (lines '214'-'215').
+src/com/igate/hbms/controller/HbmsController.java:215	Found 'DD'-anomaly for variable 'cityList' (lines '215'-'216').
+src/com/igate/hbms/controller/HbmsController.java:224	A method should have only one exit point, and that should be the last statement in the method
+src/com/igate/hbms/controller/HbmsController.java:238	Local variable 'roomType' could be declared final
+src/com/igate/hbms/controller/HbmsController.java:246	Found 'DD'-anomaly for variable 'hotelList' (lines '246'-'247').
+src/com/igate/hbms/controller/HbmsController.java:247	Found 'DD'-anomaly for variable 'hotelList' (lines '247'-'248').
+src/com/igate/hbms/controller/HbmsController.java:258	Local variable 'hotelId' could be declared final
+src/com/igate/hbms/controller/HbmsController.java:276	Found 'DD'-anomaly for variable 'status' (lines '276'-'277').
+src/com/igate/hbms/controller/HbmsController.java:290	The String literal "result" appears 10 times in this file; the first occurrence is on line 290
+src/com/igate/hbms/controller/HbmsController.java:298	Found 'DD'-anomaly for variable 'status' (lines '298'-'299').
+src/com/igate/hbms/controller/HbmsController.java:314	Avoid unused local variables such as 'reportBean'.
+src/com/igate/hbms/controller/HbmsController.java:314	Found 'DU'-anomaly for variable 'reportBean' (lines '314'-'319').
+src/com/igate/hbms/controller/HbmsController.java:333	Found 'DD'-anomaly for variable 'viewName' (lines '333'-'338').
+src/com/igate/hbms/controller/HbmsController.java:338	Found 'DD'-anomaly for variable 'viewName' (lines '338'-'343').
+src/com/igate/hbms/controller/HbmsController.java:359	Found 'DU'-anomaly for variable 'viewName' (lines '359'-'379').
+src/com/igate/hbms/controller/HbmsController.java:362	Avoid if (x != y) ..; else ..;
+src/com/igate/hbms/controller/HbmsController.java:399	Avoid reassigning parameters such as 'hotelBean1'
+src/com/igate/hbms/controller/HbmsController.java:401	Found 'DD'-anomaly for variable 'viewName' (lines '401'-'406').
+src/com/igate/hbms/controller/HbmsController.java:406	Found 'DD'-anomaly for variable 'viewName' (lines '406'-'411').
+src/com/igate/hbms/controller/HbmsController.java:428	Found 'DD'-anomaly for variable 'viewName' (lines '428'-'433').
+src/com/igate/hbms/controller/HbmsController.java:428	Found 'DD'-anomaly for variable 'viewName' (lines '428'-'448').
+src/com/igate/hbms/controller/HbmsController.java:428	Found 'DD'-anomaly for variable 'viewName' (lines '428'-'455').
+src/com/igate/hbms/controller/HbmsController.java:442	Avoid unnecessary comparisons in boolean expressions
+src/com/igate/hbms/controller/HbmsController.java:448	Found 'DD'-anomaly for variable 'viewName' (lines '448'-'455').
+src/com/igate/hbms/controller/HbmsController.java:480	Found 'DD'-anomaly for variable 'viewName' (lines '480'-'496').
+src/com/igate/hbms/controller/HbmsController.java:480	Found 'DD'-anomaly for variable 'viewName' (lines '480'-'502').
+src/com/igate/hbms/controller/HbmsController.java:480	Found 'DU'-anomaly for variable 'viewName' (lines '480'-'506').
+src/com/igate/hbms/controller/HbmsController.java:491	Avoid unnecessary comparisons in boolean expressions
+src/com/igate/hbms/controller/HbmsController.java:495	Do not add empty strings
+src/com/igate/hbms/controller/HbmsController.java:496	Found 'DD'-anomaly for variable 'viewName' (lines '496'-'502').
+src/com/igate/hbms/dao/DisplayRoomRowMapper.java:6	Avoid unused imports such as 'javax.servlet.jsp.jstl.sql.Result'
+src/com/igate/hbms/dao/DisplayRoomRowMapper.java:6	Avoid unused imports such as 'javax.servlet.jsp.jstl.sql.Result'
+src/com/igate/hbms/dao/DisplayRoomRowMapper.java:17	Avoid variables with short names like rs
+src/com/igate/hbms/dao/DisplayRoomRowMapper.java:17	Parameter 'rowNum' is not assigned and could be declared final
+src/com/igate/hbms/dao/DisplayRoomRowMapper.java:17	Parameter 'rs' is not assigned and could be declared final
+src/com/igate/hbms/dao/DisplayRoomRowMapper.java:19	Local variable 'roomTypeBean' could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:30	Parameter 'jdbcTemplate' is not assigned and could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:34	Parameter 'userBean' is not assigned and could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:35	Found 'DU'-anomaly for variable 'check' (lines '35'-'74').
+src/com/igate/hbms/dao/HbmsDAO.java:35	Found 'DU'-anomaly for variable 'check' (lines '35'-'74').
+src/com/igate/hbms/dao/HbmsDAO.java:36	Found 'DU'-anomaly for variable 'query' (lines '36'-'74').
+src/com/igate/hbms/dao/HbmsDAO.java:36	Found 'DU'-anomaly for variable 'query' (lines '36'-'74').
+src/com/igate/hbms/dao/HbmsDAO.java:36	Local variable 'query' could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:37	Found 'DU'-anomaly for variable 'mapper' (lines '37'-'74').
+src/com/igate/hbms/dao/HbmsDAO.java:37	Found 'DU'-anomaly for variable 'mapper' (lines '37'-'74').
+src/com/igate/hbms/dao/HbmsDAO.java:37	Local variable 'mapper' could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:39	Avoid variables with short names like rs
+src/com/igate/hbms/dao/HbmsDAO.java:48	Avoid printStackTrace(); use a logger call instead.
+src/com/igate/hbms/dao/HbmsDAO.java:52	System.out.print is used
+src/com/igate/hbms/dao/HbmsDAO.java:56	Local variable 'userBean1' could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:57	Avoid using equals() to compare against null
+src/com/igate/hbms/dao/HbmsDAO.java:59	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/igate/hbms/dao/HbmsDAO.java:76	Parameter 'hotelId' is not assigned and could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:78	Found 'DD'-anomaly for variable 'list' (lines '78'-'79').
+src/com/igate/hbms/dao/HbmsDAO.java:79	Found 'DD'-anomaly for variable 'list' (lines '79'-'80').
+src/com/igate/hbms/dao/HbmsDAO.java:85	Parameter 'perNightRate' is not assigned and could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:85	Parameter 'roomId' is not assigned and could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:87	Found 'DD'-anomaly for variable 'amount' (lines '87'-'150').
+src/com/igate/hbms/dao/HbmsDAO.java:88	Local variable 'fromDate' could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:89	System.out.print is used
+src/com/igate/hbms/dao/HbmsDAO.java:90	Avoid variables with short names like a
+src/com/igate/hbms/dao/HbmsDAO.java:90	Local variable 'a' could be declared final
+src/com/igate/hbms/dao/HbmsDAO.java:92	Avoid unused local variables such as 'year2'.
+src/com/igate/hbms/dao/HbmsDAO.java:92	Found 'DU'-anomaly for variable 'year2' (lines '92'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:94	Avoid unused local variables such as 'month2'.
+src/com/igate/hbms/dao/HbmsDAO.java:94	Found 'DU'-anomaly for variable 'month2' (lines '94'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:96	Avoid unused local variables such as 'day2'.
+src/com/igate/hbms/dao/HbmsDAO.java:96	Found 'DU'-anomaly for variable 'day2' (lines '96'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:99	Found 'DU'-anomaly for variable 'sqlDate' (lines '99'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:102	Avoid variables with short names like b
+src/com/igate/hbms/dao/HbmsDAO.java:104	Avoid unused local variables such as 'year3'.
+src/com/igate/hbms/dao/HbmsDAO.java:104	Found 'DU'-anomaly for variable 'year3' (lines '104'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:106	Avoid unused local variables such as 'month3'.
+src/com/igate/hbms/dao/HbmsDAO.java:106	Found 'DU'-anomaly for variable 'month3' (lines '106'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:108	Found 'DU'-anomaly for variable 'day3' (lines '108'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:111	Found 'DU'-anomaly for variable 'sqlDate1' (lines '111'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:112	Found 'DU'-anomaly for variable 'sysDate' (lines '112'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:144	Avoid variables with short names like d1
+src/com/igate/hbms/dao/HbmsDAO.java:145	Avoid variables with short names like d2
+src/com/igate/hbms/dao/HbmsDAO.java:150	Found 'DU'-anomaly for variable 'amount' (lines '150'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:154	A method should have only one exit point, and that should be the last statement in the method
+src/com/igate/hbms/dao/HbmsDAO.java:154	Consider simply returning the value vs storing it in local variable 'days2'
+src/com/igate/hbms/dao/HbmsDAO.java:161	Found 'DU'-anomaly for variable 'count' (lines '161'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:162	Found 'DU'-anomaly for variable 'i' (lines '162'-'167').
+src/com/igate/hbms/dao/HbmsDAO.java:177	Avoid if (x != y) ..; else ..;
+src/com/igate/hbms/dao/HbmsDAO.java:191	Found 'DD'-anomaly for variable 'locationList' (lines '191'-'193').
+src/com/igate/hbms/dao/HbmsDAO.java:200	Found 'DD'-anomaly for variable 'hotelList' (lines '200'-'202').
+src/com/igate/hbms/dao/HbmsDAO.java:208	Found 'DD'-anomaly for variable 'hotelList' (lines '208'-'211').
+src/com/igate/hbms/dao/HbmsDAO.java:221	Consider simply returning the value vs storing it in local variable 'hotelId'
+src/com/igate/hbms/dao/HbmsDAO.java:226	Found 'DD'-anomaly for variable 'status' (lines '226'-'231').
+src/com/igate/hbms/dao/HbmsDAO.java:239	Found 'DD'-anomaly for variable 'status' (lines '239'-'244').
+src/com/igate/hbms/dao/HbmsDAO.java:253	System.out.print is used
+src/com/igate/hbms/dao/HbmsDAO.java:255	Found 'DD'-anomaly for variable 'reportList' (lines '255'-'264').
+src/com/igate/hbms/dao/HbmsDAO.java:255	Found 'DU'-anomaly for variable 'reportList' (lines '255'-'275').
+src/com/igate/hbms/dao/HbmsDAO.java:264	Avoid instantiating new objects inside loops
+src/com/igate/hbms/dao/HbmsDAO.java:287	Found 'DD'-anomaly for variable 'list' (lines '287'-'288').
+src/com/igate/hbms/dao/HbmsDAO.java:303	Found 'DD'-anomaly for variable 'count' (lines '303'-'304').
+src/com/igate/hbms/dao/HbmsDAO.java:322	Found 'DU'-anomaly for variable 'mapper' (lines '322'-'346').
+src/com/igate/hbms/dao/HbmsDAO.java:322	Found 'DU'-anomaly for variable 'mapper' (lines '322'-'346').
+src/com/igate/hbms/dao/HbmsDAO.java:345	Consider simply returning the value vs storing it in local variable 'bean'
+src/com/igate/hbms/dao/HbmsDAO.java:359	Found 'DD'-anomaly for variable 'update1' (lines '359'-'364').
+src/com/igate/hbms/dao/HbmsDAO.java:380	Found 'DD'-anomaly for variable 'add1' (lines '380'-'385').
+src/com/igate/hbms/dao/HotelResultSetExtractor.java:30	Parameter 'rst' is not assigned and could be declared final
+src/com/igate/hbms/dao/HotelResultSetExtractor.java:33	Local variable 'hotelBean' could be declared final
+src/com/igate/hbms/dao/HotelResultSetExtractor.java:36	System.out.print is used
+src/com/igate/hbms/dao/HotelRowMapper.java:12	Avoid variables with short names like rs
+src/com/igate/hbms/dao/HotelRowMapper.java:12	Parameter 'rowNum' is not assigned and could be declared final
+src/com/igate/hbms/dao/HotelRowMapper.java:12	Parameter 'rs' is not assigned and could be declared final
+src/com/igate/hbms/dao/HotelRowMapper.java:14	Found 'DD'-anomaly for variable 'hotelBean' (lines '14'-'16').
+src/com/igate/hbms/dao/HotelRowMapper1.java:30	Parameter 'rowNum' is not assigned and could be declared final
+src/com/igate/hbms/dao/HotelRowMapper1.java:30	Parameter 'rst' is not assigned and could be declared final
+src/com/igate/hbms/dao/HotelRowMapper1.java:32	Avoid excessively long variable names like hotelResultSetExtractor
+src/com/igate/hbms/dao/HotelRowMapper1.java:32	Local variable 'hotelResultSetExtractor' could be declared final
+src/com/igate/hbms/dao/HotelRowMapper1.java:33	Local variable 'hotelBean' could be declared final
+src/com/igate/hbms/dao/HotelRowMapper1.java:34	Consider simply returning the value vs storing it in local variable 'hotelBean'
+src/com/igate/hbms/dao/IHbmsDAO.java:21	Avoid modifiers which are implied by the context
+src/com/igate/hbms/dao/IHbmsDAO.java:22	Avoid modifiers which are implied by the context
+src/com/igate/hbms/dao/IHbmsDAO.java:24	Avoid modifiers which are implied by the context
+src/com/igate/hbms/dao/IHbmsDAO.java:25	Avoid modifiers which are implied by the context
+src/com/igate/hbms/dao/IHbmsDAO.java:26	Avoid modifiers which are implied by the context
+src/com/igate/hbms/dao/ReportRowMapper.java:8	Avoid unused imports such as 'com.igate.hbms.bean.HotelBean'
+src/com/igate/hbms/dao/ReportRowMapper.java:8	Avoid unused imports such as 'com.igate.hbms.bean.HotelBean'
+src/com/igate/hbms/dao/ReportRowMapper.java:14	Avoid variables with short names like rs
+src/com/igate/hbms/dao/ReportRowMapper.java:14	Parameter 'arg1' is not assigned and could be declared final
+src/com/igate/hbms/dao/ReportRowMapper.java:14	Parameter 'rs' is not assigned and could be declared final
+src/com/igate/hbms/dao/ReportRowMapper.java:18	Local variable 'reportBean' could be declared final
